@@ -28,8 +28,15 @@ body{
     border:none;
     border-radius:20px;
     background-image:url('./myImage1.jpg');
+    background-size:100% 25%;
+    background-repeat:no-repeat;
+    background-height:100%;
     color:white;
-    box-shadow:1px 1px 10px 7px grey;
+    box-shadow:1px 1px 10px 5px grey;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color:black; 
+    
 }
 .navbar{
     /* border:2px solid white; */
@@ -92,17 +99,20 @@ font-family:Verdana;
     font-family: Verdana;
 }
 .landing{
-    margin-left:70%;
+    margin-left:40%;
     position:absolute;
     font-family:Verdana;
+    width:250px;
     font-size:14px;
-    right:100px;
+    right:150px;
     top:0px;
 }
 .landing p{
-    margin-top:20px;
+    margin-top:15px;
     font-family:Verdana;
-    font-size:11px;
+    font-size:12px;
+    font-weight:200;
+    text-align:center;
 }
 .search-container{
     margin-top:15px;
@@ -154,4 +164,10 @@ font-family:Verdana;
 .temp{
 
     position:relative;
+}
+.playbtn{
+    font-size:40px;
+    width:90%;
+    text-align:center;
+    cursor:pointer;
 }
